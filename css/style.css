@@ -8,12 +8,13 @@
 
 /* Variables */
 :root {
-    --main-color: #d30000;
-    --main-text-color: #FFF;
+    --main-color: #178582;
+    --main-text-color: #212121;
     --border-color: #999;
     --bio-bg-color: #32353a;
     --bio-border-color: #000000;
-    --about-bg-color: #595f68;
+    --bio-text-color: #fff;
+    --about-bg-color: #F5F5F5;
 
 }
 
@@ -44,6 +45,7 @@
     text-align: center;
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-color);
+    color: var(--bio-text-color);
 }
 
 
@@ -97,7 +99,7 @@
 }
 
 #email-container a {
-    color: var(--main-text-color);
+    color: var(--bio-text-color);
     text-decoration: none;
     max-width: 225px;
 }
